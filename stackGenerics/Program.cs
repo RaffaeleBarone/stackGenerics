@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Push: Questa operazione aggiunge un elemento in cima allo stack. Se lo stack è pieno, allora è un’operazione di overflow.
+//Pop: Questa operazione rimuove un elemento dalla cima dello stack. Se lo stack è vuoto, allora è un’operazione di underflow.
+//Peek o Top: Questa operazione restituisce l’elemento in cima allo stack senza rimuoverlo.
+
 namespace stackGenerics
 {
     internal class Program
